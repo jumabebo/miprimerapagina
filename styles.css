@@ -217,6 +217,10 @@ footer .Links {
 
 /*----- CELULAR -------*/
 @media(max-width: 768px){
+/* -------------- CABEZA ----------------------*/
+.bienvenida img{
+    width: 400px;
+}
 
 /* ----- CENTRO -----*/
 .definicions {
