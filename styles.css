@@ -226,4 +226,53 @@ footer .Links {
     align-items: center;
     justify-content: center;
 }
+        .checkbtn {
+        display: block;
+    }
+
+    header ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: beige;
+        text-align: center;
+        top: 70px;
+        left: 100%;
+        transition: all 0.5s;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+        display: block;
+
+    }
+
+    header nav ul il {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    .Menu div {
+        background: none;
+    }
+
+    header nav ul il a {
+        font-size: 20px;
+        color: black
+    }
+
+    #check:checked~.checkbtn {
+        color: black;
+    }
+
+    .Menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+}
 }
